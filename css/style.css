@@ -10,8 +10,8 @@ body {
   line-height: 1.2em;
   padding-top: 70px;
   color: rgb(1, 2, 3);
-}
 
+}
 h1 {
   margin: 0%;
   font-weight: 700;
@@ -33,6 +33,7 @@ h2 {
 }
 h3 {
   margin-top: 0px;
+  text-align: center;
   font-size: 40px;
   line-height: 1.2;
   color: darkred;
@@ -103,6 +104,8 @@ h3 {
   transition: all 0.2s linear;
   border-bottom: 1px solid transparent;
 }
+
+
 .nav__link:hover {
   color: rgb(26, 26, 116);
   border-color: rgb(26, 26, 116);
@@ -110,13 +113,5 @@ h3 {
 .linked_img {
   position: relative;
 }
-.article {
-  position: relative;
-  display: block;
-  width: max-content;
-}
-.article__desc {
-  position: absolute;
-  bottom: 6px;
-  color: rgb(255, 255, 255);
-}
+
+
